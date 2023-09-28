@@ -35,12 +35,12 @@ Before you start contributing, make sure you have the following tools installed:
    git clone https://github.com/your-username/wtm-bamenda-website-frontend.git
    cd wtm-bamenda-website-frontend
 
-2. Install project dependencies:
+3. Install project dependencies:
 
    ```bash
    npm install
 
-3. Start the development server:
+4. Start the development server:
 
    ```bash
    npm start
