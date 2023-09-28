@@ -64,7 +64,7 @@ Welcome to the Women Techmakers Bamenda (WTM Bamenda) community's frontend codin
    ```javascript
    // Good
    const age = 30;
-   const name = 'Alice';
+   const name = 'Jane Doe';
 
    // Avoid
    var x = 10;
