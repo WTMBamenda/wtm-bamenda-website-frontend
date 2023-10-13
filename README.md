@@ -41,7 +41,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/wtm-bamenda/frontend-project.git`
 2. Change into the project directory: `cd frontend-project`
 3. Open the project in your preferred code editor.
-   please refer to the [CONTRIBUTING.md]
+   please refer to the [CONTRIBUTING.md](CONTRIBUTING.md)
  To install and run a React project, you need to follow a series of steps. Here is a comprehensive guide on how to do it:
    
 1. Prerequisites: Before starting, ensure that you have the following software installed on your system:
@@ -97,10 +97,10 @@ The project structure is organized as follows:
 - fonts/: Directory for storing custom fonts, if any.
 
  ## Contributing Guidelines
-We welcome contributions from everyone! To contribute to the project, please refer to [CONTRIBUTING.md]
+We welcome contributions from everyone! To contribute to the project, please refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 
  ##  Code Style
-We follow the official WTM brand guidelines in this project. Please refer to the coding style guidelines in the [STYLEGUIDE.md] file for more information.
+We follow the official WTM brand guidelines in this project. Please refer to the coding style guidelines in the [STYLEGUIDE.md](STYLEGUIDE.md) file for more information.
 
 ##  Testing
 Testing is an important aspect of ensuring the quality of our code. Before submitting a pull request, please make sure that your changes have been thoroughly tested. You can use modern testing frameworks such as Jest or Mocha to write and run tests for your code.
@@ -120,6 +120,6 @@ If you have any questions or need further assistance, please feel free to reach 
 
 ---
 
-## LICENSE
+## [LICENSE](LICENSE)
 
 Thank you for being a part of the WTM Bamenda community and helping us make a positive impact in the tech industry!
