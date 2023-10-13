@@ -1,0 +1,42 @@
+
+
+.profile-frame img{
+    width: 259px; 
+    height: 237px;
+    border-radius: 28px 8px 28px 8px;
+    gap: 20px;
+}
+.profile{
+  margin-top: 64px;
+}
+.profile h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.profile small{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.social-handles{
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+@media(max-width: 576px) {
+ div{
+  align-items: center;
+  text-align: center;
+ }
+  div.social-handles{
+    display: flex;
+    justify-content: center;
+  }
+}
