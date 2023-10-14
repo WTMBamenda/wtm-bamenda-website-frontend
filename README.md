@@ -38,8 +38,8 @@ Before you start contributing, make sure you have the following tools installed:
 - JavaScript: Understanding JavaScript will enable you to add interactivity to the website.  
 ## Installation
 To set up the project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/wtm-bamenda/frontend-project.git`
-2. Change into the project directory: `cd frontend-project`
+1. Clone the repository: `git clone git@github.com:WTMBamenda/wtm-bamenda-website-frontend.git`
+2. Change into the project directory: `cd wtm-bamenda-website-frontend`
 3. Open the project in your preferred code editor.
    please refer to the [CONTRIBUTING.md](CONTRIBUTING.md)
  To install and run a React project, you need to follow a series of steps. Here is a comprehensive guide on how to do it:
