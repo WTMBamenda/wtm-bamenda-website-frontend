@@ -1,0 +1,60 @@
+.top-bar{
+    width: 100%;
+    font-weight: normal;
+   
+    
+
+}
+.nav-logo{
+    width: 390px;
+   height: 99px;
+   margin-left: 100px;
+   
+
+}
+.nav-bar1{
+   Width:100%;
+    /* Height:102px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F4FFF8;
+     
+    
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style:  none ;
+}
+ul .nav-home{
+    color: #00BFA5;
+    border-bottom: 3px solid #00BFA5;
+    width: 25px;
+    margin-right: 20px;
+  
+    
+   
+ }
+.join-button{
+
+     width: 246px;
+    height: 56px;
+    border-radius: 8px;
+    border: 2px;
+    gap: 8px;
+    background: linear-gradient(0deg, #00E1AE, #00E1AE),
+    linear-gradient(0deg, #000000, #000000);
+    border: 2px solid #000000;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: 5px 5px 2px 1px black;
+    margin-right: 100px;
+}
