@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import OrganizerAmbassadorCard from './card-component-amba-org/Card'
+import ambassador1 from "./assets/about/ambassador-1.jpg";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let OrganizerAmbassadorCardInfo = {
+  image: ambassador1,
+  name: 'Mbongeya Noella',
+  job: 'Computer engineer',
+  twitterProfile: `https://twitter.com/MbongeyaNoella`,
+  githubProfile: ``,
+  linkedinProfile:`Linkedin: https://www.linkedin.com/in/mbongeya-noella-mary-640006bb/`
+}
 root.render(
   <React.StrictMode>
     <App />
+    <OrganizerAmbassadorCard info={OrganizerAmbassadorCardInfo}/>
   </React.StrictMode>
 );
 

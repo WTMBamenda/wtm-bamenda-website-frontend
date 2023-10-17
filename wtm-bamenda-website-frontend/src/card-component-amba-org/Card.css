@@ -1,93 +1,47 @@
-.all-card-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
-}
 .card-container{
+    width: 13rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 0.5rem;
+    height: fit-content;
     justify-content: center;
-} 
-.card-container1{
-    width: 7rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    height: fit-content;
 }
-.card-container2{
-    width: 7rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem 7rem;
-    height: fit-content;
-}
-.card-container3{
-    width: 7rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    height: fit-content;
-}
-.card-img1{
-    /* border-radius: 1rem 0rem; */
-    width: 11rem;
-    height: 15rem;
-    margin-bottom: 0px;
-    padding-bottom: 0;
+.card-img{
+    width: 13rem;
+    height: 17rem;
     object-fit: cover;
 }
-.card-text-amba{
-    margin: 1px;
-    margin-top: 0px;
-    padding: 0px 0px;
-    border: 0px;
+.card-text{
+    margin: 0px;
+    padding: 0;
     width: 11rem;
-    height: 9rem;
-    /* line-height: 0%; */
+    height: 3rem;
+    justify-content: left;
 }
-.card-text-org{
-    margin: 1px;
-    margin-top: 0px;
-    padding: 0px 0px;
-    border: 0px;
-    width: 11rem;
-    height: 9rem;
-}
-.card-job1{
-    margin-top: 0%;
+.card-job{
     padding-top: 0%;
+    margin: 0;
     font-size: 12px;
     font-weight: 200;
 }
 .card-name{
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    padding-top: 0%;
+    margin: 0;
     font-size: 19px;
     font-weight: 367;
-    
 }
-.icon-container{
+.social-handles-container{
   display: flex;
   flex-direction: row;
 }
 img{
     width: 20px;
     margin-right: 6px;
+   
 }
-
 .image-container{
-    width: 11rem;
-    height: 170px;
+    width: 13rem;
+    height: 190px;
     overflow: hidden;
     border-radius: 1rem 0rem 1rem 0rem;
-    background-color: aquamarine;
-    margin: 0%;
-    padding: 0%;
 }
