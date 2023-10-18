@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import MemberProfile from './pages/MemberProfile';
 import memberImage1 from "./assets/home/s3-img-1.JPG";
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let memberInfo = {
   image: memberImage1,
@@ -14,7 +15,6 @@ let memberInfo = {
   githubProfile: `https://github.com/nangahamandine`,
   linkedinProfile:`Linkedin: https://www.linkedin.com/in/nangah-amandine`
 }
-
 root.render(
   <React.StrictMode>
     <App />
