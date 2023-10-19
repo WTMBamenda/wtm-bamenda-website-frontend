@@ -1,0 +1,44 @@
+.top-bar{
+    width: 100%;
+    font-weight: normal;
+   
+    
+
+}
+.nav-logo{
+    width: 350px;
+   height: 100px;
+  margin-left: 130px;
+object-fit:contain;
+   
+   
+
+}
+.nav-bar1{
+    Width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F4FFF8;
+     
+    
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style:  none ;
+}
+ul .nav-home{
+    color: #00BFA5;
+    border-bottom: 3px solid #00BFA5;
+    width: 25px;
+    margin-right: 20px;
+  
+    
+   
+ }
+
