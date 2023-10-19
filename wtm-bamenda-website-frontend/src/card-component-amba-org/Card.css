@@ -1,0 +1,47 @@
+.card-container{
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    height: fit-content;
+    justify-content: center;
+}
+.card-img{
+    width: 13rem;
+    height: 17rem;
+    object-fit: cover;
+}
+.card-text{
+    margin: 0px;
+    padding: 0;
+    width: 11rem;
+    height: 3rem;
+    justify-content: left;
+}
+.card-job{
+    padding-top: 0%;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 200;
+}
+.card-name{
+    padding-top: 0%;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 367;
+}
+.social-handles-container{
+  display: flex;
+  flex-direction: row;
+}
+img{
+    width: 20px;
+    margin-right: 6px;
+   
+}
+.image-container{
+    width: 13rem;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 1rem 0rem 1rem 0rem;
+}
