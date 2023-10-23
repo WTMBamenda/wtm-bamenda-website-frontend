@@ -10,6 +10,7 @@ function NavBar(){
                 <img src={Logo} alt="wtm-logo" className="nav-logo"  />
                 <nav className="nav-item">
                     <ul>
+
                    <Link to='/' className="link">
                    <li className="nav-home">Home</li>
                    </Link>
@@ -27,6 +28,7 @@ function NavBar(){
                    </Link>
                    
                    
+
                     </ul>
                     
                 </nav>

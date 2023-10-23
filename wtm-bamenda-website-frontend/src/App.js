@@ -7,6 +7,7 @@ import Block from './pages/Block';
 import Events from './pages/Events';
 import {Route,Routes} from 'react-router-dom'
 function App() {
+
    return(
     <div>
      
@@ -21,5 +22,6 @@ function App() {
     
     </div>
    )
+
 }
 export default App;

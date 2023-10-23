@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bottom-nav{
+    height: 55vh; 
+    width: 100%; 
+    background-color: #000000;
+    border-radius: 1rem 1rem 0rem 0rem;
+}img{
+    width: 100%;
+}
+a img{
+    width: 30px;
+    padding: 4px 3px;
+}
+button#sendbtn{
+    background-color: #adc6ff;
+}button#joinbtn{
+    background-color: #00bfa5;
+}
+li{
+    padding: 3px;
+}
