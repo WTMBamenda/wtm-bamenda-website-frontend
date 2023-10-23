@@ -41,4 +41,8 @@ ul .nav-home{
     
    
  }
+ .link{
+    text-decoration: none;
+    color: black;
+ }
 

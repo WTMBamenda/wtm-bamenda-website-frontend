@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import MemberProfile from './pages/MemberProfile';
 import memberImage1 from "./assets/home/s3-img-1.JPG";
+import { BrowserRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +18,9 @@ let memberInfo = {
 }
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+       <App />
+    </BrowserRouter>
     <MemberProfile info={memberInfo} />
   </React.StrictMode>
 );
