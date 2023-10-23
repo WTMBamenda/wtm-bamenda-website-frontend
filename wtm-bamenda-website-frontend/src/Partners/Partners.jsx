@@ -1,7 +1,8 @@
-import './partners.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import './Partners.css'
+
 export default function carousel(){
     var settings = {
         dots: false,
@@ -41,7 +42,7 @@ export default function carousel(){
         ]
       };
     return(
-      <div className='carousel-wrapper'>
+      <div className='carousel-wrapper mt-5'>
       <h2>Our<span> Partners</span></h2>
        <div className='carousel'>
     <Slider {...settings}>

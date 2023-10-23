@@ -1,7 +1,8 @@
 import Logo from "../assets/logos/wtm-logo.png"
-import './NavBar.css'
 import JoinButton from "../JoinButton/JoinButton";
 import { Link } from "react-router-dom";
+import './NavBar.css'
+
 
 function NavBar(){
     return(
@@ -23,12 +24,11 @@ function NavBar(){
                    <Link to='/events' className="link">
                    <li>Events</li>
                    </Link>
-                   <Link to='/block' className="link">
-                   <li>Block</li>
+                   <Link to='/blog' className="link">
+                   <li>Blog</li>
                    </Link>
                    
                    
-
                     </ul>
                     
                 </nav>
