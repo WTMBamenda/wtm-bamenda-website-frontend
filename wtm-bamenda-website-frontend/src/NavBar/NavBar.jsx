@@ -13,7 +13,7 @@ function NavBar(){
                     <li>About</li>
                     <li>Projects</li>
                     <li>Events</li>
-                    <li>Block</li>
+                    <li>Blog</li>
                     </ul>
                     
                 </nav>
