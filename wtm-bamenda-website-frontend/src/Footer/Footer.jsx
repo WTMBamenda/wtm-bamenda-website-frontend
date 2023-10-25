@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-  <div className="bottom-nav"> 
+  <div className="bottom-nav mt-5"> 
   <div class="container h-30 w-full p-4">
   <div class="row">
   <div class="col-4">
