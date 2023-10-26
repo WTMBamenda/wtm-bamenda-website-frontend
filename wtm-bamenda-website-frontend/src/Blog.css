@@ -1,0 +1,145 @@
+.blog {
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.blog-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 74px;
+  letter-spacing: 0;
+  color: black; 
+  margin-top: 80px;
+}
+
+.blog-description {
+  text-align: center;
+  max-width: 761px;
+  margin: 20px auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: black; 
+  margin-top: 20px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 550px;
+  border-radius: 28px 8px 28px 8px;
+  margin-top: 30px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.blog-list-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 50px;
+  color: black; 
+  margin-top: 20px;
+}
+
+.submit-button {
+  background-color: #ff7370;
+  color: rgb(0, 0, 0);
+  padding: 8px 16px;
+  width: 200px;
+  border: 1;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px, 24px, 20px, 24px;
+  font-weight: 500;
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.blog-card {
+  background: rgb(255, 255, 255);
+  border-radius: 28px 8px 28px 8px;
+  border: 2px solid #ffdad7;
+  height: auto;
+  width: 450px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.blog-card-image {
+  width: 400px;
+  height: 300px;
+}
+
+.blog-card-content {
+  padding: 10px;
+}
+
+.blog-card-title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+
+.blog-card-description {
+  font-size: 1rem;
+  color: #777;
+}
+/* Blog.css */
+.blog-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; 
+  margin-top: 10px;
+}
+
+.related-topic-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.related-topic {
+  background-color: #ffedeb;
+  color: black;
+  padding: 5px 15px; 
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.related-topic:hover {
+  background-color: #ffcbc5;
+}
+
+.read-more-button {
+  background-color: #ff7370;
+  color: rgb(0, 0, 0);
+  width: fill;
+  height: 40px;
+  padding: 20px, 24px, 20px, 24px;
+  gap:4px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 20px;
+}
