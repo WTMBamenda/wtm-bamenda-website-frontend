@@ -1,0 +1,141 @@
+.project-page {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.header {
+  margin-top: 80px;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 550;
+  line-height: 74px;
+  letter-spacing: 0em;
+  margin-bottom: 50px;
+}
+.project-title {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 74px;
+  margin-bottom: 20px;
+}
+
+.projects{
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 40px ;
+    margin-bottom: 350px;
+}
+
+
+.project-details {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.project-details{
+    column-gap: 130px;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media(max-width: 768px) {
+    .project-details {
+      flex-direction: column;
+    }
+    .project-image {
+      width: auto;
+      margin-bottom: 20px;
+    }
+    .project-content {
+      width: auto;
+    }
+  }
+
+
+.project-image {
+    width: 50%;
+}
+
+.project-content {
+    max-width: 500px;
+  width: 50%;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  
+  .project-tags{
+    background-color: #d1d5ff;
+    color: black;
+    padding: 5px 15px; 
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .project-tags:hover {
+    background-color: #b1b6ff;
+  }
+
+  
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.tagging{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+
+  .project-tags {
+    background-color: #d1d5ff;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center text within the button */
+  }
+  
+  .project-tags:hover {
+    background-color: #b1b6ff;
+  }
+  
+
+  .view-projects-button {
+    background-color: 
+    
+    #005AC1;  
+    margin-top: 25px;
+    color: white;  
+    border: none;
+    font-family: Roboto;
+  font-weight: 450;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;  
+    gap: 4px;
+  }
+
+  .selected-tag {
+    background-color: #838bfc;
+    color: black; /* You can adjust the text color as needed */
+  }
+  
