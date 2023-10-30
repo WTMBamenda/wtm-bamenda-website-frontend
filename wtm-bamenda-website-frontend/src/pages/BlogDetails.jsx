@@ -12,7 +12,7 @@ export default function BlogDetails(props) {
             <NavBar />
             <div className="details-container">
                 <div className="image-container">
-                    <img src={props.info.image} className="main-image"></img>
+                    <img src={props.info.image} alt="blog-hero-img"className="main-image"></img>
                 </div>
                 <div className="title-container">
                     <p className="title">{props.info.title}</p>
