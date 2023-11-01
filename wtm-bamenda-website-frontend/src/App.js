@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Events from './pages/Events';
 import BlogDetails from './pages/BlogDetails';
+import ProjectDetails from './pages/ProjectDetails';
 import { Route, Routes } from 'react-router-dom'
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Landing/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/projects' element={<Projects/>} />
+        <Route path='/projectdetails' element={<ProjectDetails/>} />
         <Route path='/events' element={<Events/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/blogdetails' element={<BlogDetails/>} />
