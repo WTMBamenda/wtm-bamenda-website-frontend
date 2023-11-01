@@ -22,7 +22,6 @@ import "../Landing.css";
 export default function Landing() {
   return (
     <div className="HomePage">
-      <NavBar />
       <section className="hero-section">
         <div className="hero-overview">
           <h1 className="hero-heading">Women TechMakers Bamenda</h1>
