@@ -1,18 +1,24 @@
-.join-button{
-
-    width: 220px;
-   height: 50px;
-   border-radius: 8px;
-   background: linear-gradient(0deg, #00E1AE, #00E1AE),
-   linear-gradient(0deg, #000000, #000000);
-   border: 2px solid #000000;
-   align-items: center;
-   justify-content: center;
-   font-family: "Roboto";
-   font-size: 20px;
-   letter-spacing: 0em;
-   font-weight: light;
-   text-align: center;
-   box-shadow: 5px 5px 2px 1px black;
-   margin-right: 100px;
+.join-button {
+  width: 220px;
+  height: 50px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #00e1ae, #00e1ae),
+    linear-gradient(0deg, #000000, #000000);
+  border: 2px solid #000000;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  letter-spacing: 0em;
+  font-weight: light;
+  text-align: center;
+  box-shadow: 5px 5px 2px 1px black;
+}
+@media (max-width: 576px) {
+  .join-button {
+    margin-left: 5px;
+    max-width: 118px;
+    height: 30px;
+    font-size: 12px;
+  }
 }

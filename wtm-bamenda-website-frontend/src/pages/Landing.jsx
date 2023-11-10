@@ -22,18 +22,18 @@ import "../Landing.css";
 export default function Landing() {
   return (
     <div className="HomePage">
-      <NavBar />
-      <section className="hero-section">
+    <NavBar />
+       <section className="hero-section">
         <div className="hero-overview">
           <h1 className="hero-heading">Women TechMakers Bamenda</h1>
           <p>
             We are a community connecting ladies interested in technology in
             Bamenda
-            <br /> community, allowing them to thrive, grow and be trailblazers.
+            community, allowing them to thrive, grow and be trailblazers.
           </p>
            <JoinButton />
         </div>
-        <div className="row mt-5 m-1">
+        <div className="row mt-5 ">
           <div className="col-sm-4 ">
             <img
               src={HeroImage1}
@@ -67,21 +67,21 @@ export default function Landing() {
             </h2>
             <p>
               We are on a mission to create a supportive and inclusive
-              <br /> community for women in technology. We believe in breaking
-              <br /> barriers, and celebrating the achievements of women in
+              community for women in technology. We believe in breaking
+              barriers, and celebrating the achievements of women in
               tech.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-sm-6">
             <div className="row gx-5">
-              <div className="col-5">
+              <div className="col-sm-5">
                 <img
                   src={SectionImg1}
                   alt="s1-img-1"
                   className=" s1-small-img"
                 />
               </div>
-              <div className="col-7">
+              <div className="col-sm-7">
                 <img
                   src={SectionImg2}
                   alt="s1-img-2"
@@ -101,12 +101,11 @@ export default function Landing() {
           </div>
           <div className="col-sm-6 text-area mt-3">
             <h2>
-              <span className="blue-text">Driving Impact with</span>
-              <br /> Purposful Projects
+              <span className="blue-text">Driving Impact </span>
+              with Purposful Projects
             </h2>
             <p>
               Our community is dedicated to making a difference through
-              <br />
               impactful projects. Join us in our pursuit of innovative solutions
               and contribute your skills to projects that matter.
             </p>
@@ -120,16 +119,15 @@ export default function Landing() {
         <div className="row gx-5 unique-row third-row">
           <div className="col-sm-6 text-area mt-5">
             <h2 className="mt-5">
-              Unleashing <span className="green-text">Innovation</span>
-              <br /> Through Engaging
-              <br /> Events
+              Unleashing <span className="green-text">Innovation </span>
+              Through Engaging Events
             </h2>
             <p>
               We organize a diverse range of events that bring together talented
               women in tech and provide opportunities for networking, learning,
               and skill development.
             </p>
-            <button className="green-btn">
+            <button className="green-btn mb-5">
               <a href="/" rel="noopener noreferrer">
                 See our events
               </a>
@@ -137,14 +135,14 @@ export default function Landing() {
           </div>
           <div className="col-sm-6">
             <div className="row gx-4">
-              <div className="col-6 sm-div">
+              <div className="col-sm-6 sm-div">
                 <img
                   src={NestImage1}
                   alt="Nested-img-1"
                   className="nested-img-1"
                 />
               </div>
-              <div className="col-6 sm-div">
+              <div className="col-sm-6 sm-div">
                 <img
                   src={NestImage2}
                   alt="Nested-img-2"
@@ -153,14 +151,14 @@ export default function Landing() {
               </div>
             </div>
             <div className="row gx-4 mt-2">
-              <div className="col-6 sm-div">
+              <div className="col-sm-6 sm-div">
                 <img
                   src={NestImage3}
                   alt="Nested-img-3"
                   className="nested-img-3"
                 />
               </div>
-              <div className="col-6 sm-div">
+              <div className="col-sm-6 sm-div">
                 <img
                   src={NestImage4}
                   alt="Nested-img-4"
@@ -179,7 +177,7 @@ export default function Landing() {
           <p>
             Dive into our blog where we share insightful articles, success
             stories, and stay updated with the
-            <br /> latest industry trends, and find inspiration from the
+            latest industry trends, and find inspiration from the
             experiences of fellow women in technology.
           </p>
           <button className="pink-btn mt-3 mb-5">
@@ -191,7 +189,8 @@ export default function Landing() {
         </section>
       </div>
       <Partners />
-      <Footer />
+      <Footer /> 
+
 
     </div>
   );

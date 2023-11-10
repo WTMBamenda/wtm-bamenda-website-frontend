@@ -1,186 +1,235 @@
 :root {
-    --primary-font: Roboto;
-    --hero-green: #00e1ae;
-    --primary-text-color: #191c1b;
-    --main-section-green: #00bfa5;
-    --main-section-blue: #005ac1;
-    --main-section-pink: #ff7370;
+  --primary-font: Roboto;
+  --hero-green: #00e1ae;
+  --primary-text-color: #191c1b;
+  --main-section-green: #00bfa5;
+  --main-section-blue: #005ac1;
+  --main-section-pink: #ff7370;
 }
 
 .hero-section {
-    background-color: #f4fff8;
-    text-align: center;
-    margin-bottom: 20px;
+  background-color: #f4fff8;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .hero-heading {
-    padding-top: 20px;
-    font-family: var(--primary-font);
-    font-weight: 600;
-    font-size: 48px;
+  padding-top: 20px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 48px;
 }
 
 .hero-section p {
-    font-family: var(--primary-font);
-    font-size: 22px;
-    font-weight: 300;
-    margin: 20px;
+  font-family: var(--primary-font);
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px;
 }
 
 .hero-images {
-    width: 440px;
-    height: 550px;
-    border-radius: 8px 28px 8px 28px;
-    object-fit: cover;
+  width: 440px;
+  height: 550px;
+  border-radius: 8px 28px 8px 28px;
+  object-fit: cover;
 }
 
-
-
 div.unique-row {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 .text-area {
-    width: 521px;
-    height: 263px;
+  width: 521px;
+  height: 263px;
 }
 
 .main-section h2 {
-    font-family: var(--primary-font);
-    font-weight: 300;
-    font-size: 48px;
-    margin-bottom: 18px;
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 18px;
 }
 
 .HomePage a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 span.green-text {
-    color: var(--main-section-green);
+  color: var(--main-section-green);
 }
 
 .text-area p {
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28px;
-    margin-top: 25px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 25px;
 }
 
 .s1-small-img {
-    width: 239px;
-    height: 415px;
-    border-radius: 28px 8px 28px 8px;
-    object-fit: cover;
+  width: 239px;
+  height: 415px;
+  border-radius: 28px 8px 28px 8px;
+  object-fit: cover;
 }
 
 .s1-large-img {
-    width: 315px;
-    height: 415px;
-    border-radius: 28px 8px 28px 8px;
-    object-fit: cover;
-    
+  width: 315px;
+  height: 415px;
+  border-radius: 28px 8px 28px 8px;
+  object-fit: cover;
 }
 
 .s2-image {
-    width: 630px;
-    height: 418px;
-    border-radius: 28px 8px 28px 8px;
-    object-fit: cover;
+  width: 630px;
+  height: 418px;
+  border-radius: 28px 8px 28px 8px;
+  object-fit: cover;
 }
 
 span.blue-text {
-    color: var(--main-section-blue);
+  color: var(--main-section-blue);
 }
 
 .blue-btn {
-    background-color: var(--main-section-blue);
-    border-color: var(--main-section-blue);
-    width: 195px;
-    height: 54px;
-    border-radius: 8px;
-    font-family: var(--primary-font);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 20px;
+  background-color: var(--main-section-blue);
+  border-color: var(--main-section-blue);
+  width: 195px;
+  height: 54px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 20px;
 }
 
 .blue-btn a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .sm-div {
-    position: relative;
+  position: relative;
 }
 
 .third-row img {
-    width: 270px;
-    height: 360px;
-    object-fit: cover;
+  width: 270px;
+  height: 360px;
+  object-fit: cover;
 }
 
 .nested-img-1 {
-    border-radius: 28px 8px 0px 0px;
+  border-radius: 28px 8px 0px 0px;
 }
 
 .nested-img-2 {
-    border-radius: 8px 28px 0px 0px;
+  border-radius: 8px 28px 0px 0px;
 }
 
 .nested-img-3 {
-    border-radius: 0px 0px 28px 8px;
+  border-radius: 0px 0px 28px 8px;
 }
 
 .nested-img-4 {
-    border-radius: 0px 0px 8px 28px;
+  border-radius: 0px 0px 8px 28px;
 }
 
 .green-btn {
-    width: 181px;
-    height: 54px;
-    border-radius: 8px;
-    background: var(--main-section-green);
-    border-color: var(--main-section-green);
-    font-family: var(--primary-font);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 20px;
+  width: 181px;
+  height: 54px;
+  border-radius: 8px;
+  background: var(--main-section-green);
+  border-color: var(--main-section-green);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 20px;
 }
 
 .green-btn a {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .pink-btn {
-    width: 168px;
-    height: 54px;
-    border-radius: 8px;
-    font-family: var(--primary-font);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    background-color: var(--main-section-pink);
-    border-color: var(--main-section-pink);
+  width: 168px;
+  height: 54px;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--main-section-pink);
+  border-color: var(--main-section-pink);
 }
 
 .pink-text {
-    color: var(--main-section-pink);
+  color: var(--main-section-pink);
 }
 
 .pink-btn a {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .last-section {
-    text-align: center;
+  text-align: center;
 }
 
 .bottom-image {
-    width: 1000px;
-    height: 319px;
-    border-radius: 28px 8px 28px 8px;
-    object-fit: cover;
+  width: 1000px;
+  height: 319px;
+  border-radius: 28px 8px 28px 8px;
+  object-fit: cover;
+}
+
+@media screen {
+  div {
+    align-items: center;
+    text-align: center;
+  }
+  .hero-images {
+    width: 330px;
+    height: 390px;
+    margin-bottom: 15px;
+  }
+
+  .s1-small-img {
+    width: 310px;
+    height: 315px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  .bottom-image {
+    width: 360px;
+    height: 160px;
+  }
+  .text-area p {
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+  }
+  .main-section h2 {
+    font-size: 38px;
+  }
+
+  .s1-large-img {
+    width: 320px;
+    height: 415px;
+  }
+  .third-row img {
+    width: 310px;
+    height: 390px;
+  }
+  .nested-img-1 {
+    margin-top: 160px;
+  }
+    .nested-img-2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+  
+    .nested-img-4 {
+    margin-top: 15px;
+    }
 }
