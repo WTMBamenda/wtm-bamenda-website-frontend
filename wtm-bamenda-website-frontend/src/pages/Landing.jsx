@@ -189,6 +189,7 @@ export default function Landing() {
         </section>
       </div>
       <Partners />
+      
       <Footer /> 
 
 

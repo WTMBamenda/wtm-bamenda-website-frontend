@@ -182,7 +182,7 @@ span.blue-text {
   object-fit: cover;
 }
 
-@media screen {
+@media(max-width: 576px) {
   div {
     align-items: center;
     text-align: center;

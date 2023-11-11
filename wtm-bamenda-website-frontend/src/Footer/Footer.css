@@ -20,7 +20,7 @@ button#sendbtn{
 .bottom-nav li{
     padding: 3px;
 }
-@media screen {
+@media (max-width:576px){
  button#joinbtn{
     width: 150px;
     height: 70;

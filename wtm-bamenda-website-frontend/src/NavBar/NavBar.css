@@ -32,7 +32,7 @@ ul .nav-home {
   color: black;
 }
 
-@media screen {
+@media (max-width:576px){
   
   .top-bar {
     text-align: center;
