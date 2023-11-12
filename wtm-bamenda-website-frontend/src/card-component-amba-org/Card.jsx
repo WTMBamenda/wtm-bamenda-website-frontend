@@ -12,22 +12,22 @@ export default function OrganizerAmbassadorCard(props) {
             </div>
             <div className="card-text">
                 <h4 className='card-name'>{props.info.name}</h4>
-                <p className='card-job'>{props.info.job}</p>
+                <p className='card-info'>{props.info.info}</p>
             </div>
             <div className="social-handles-container">
                 <div className="linkedin-link">
                     <a href={props.info.linkedinProfile} >
-                        <img src={linkedinBlack} alt="linkedin" />
+                        <img className="socials-image" src={linkedinBlack} alt="linkedin" />
                     </a>
                 </div>
                 <div className="github-link">
                     <a href={props.info.githubProfile} >
-                        <img src={githubBlack} alt="github" />
+                        <img className="socials-image" src={githubBlack} alt="github" />
                     </a>
                 </div>
                 <div className="twitter-link">
                     <a href={props.info.twitterProfile}>
-                        <img src={twitterBlack} alt="twitter" />
+                        <img className="socials-image" src={twitterBlack} alt="twitter" />
                     </a>
                 </div>
             </div>

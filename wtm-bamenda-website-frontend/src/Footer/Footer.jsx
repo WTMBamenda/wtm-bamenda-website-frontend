@@ -6,7 +6,7 @@ export default function Footer() {
   <div class="container h-30 w-full p-4">
   <div class="row">
   <div class="col-4">
-  <img src={require("../assets/logos/wtm-logo.png")} alt="WTM Logo" />
+  <img id="footer-logo" src={require("../assets/logos/wtm-logo.png")} alt="WTM Logo" />
   <p class="small text-white"> 
             Lorem ipsum dolor sit amet consectetur. Sed vitae ornare amet
             fringilla erat. Ultrices bibendum nisl volutpat vestibulum
@@ -24,17 +24,17 @@ export default function Footer() {
           </div>
           <div class="socials d-flex gap-2">
           <a href="#">
-              <img
+              <img class="socials-image"
                 src={require("../assets/logos/linkedin-white.png")}
                 alt="Linkedin Logo"/>
             </a>
             <a href="#">
-              <img
+              <img class="socials-image"
                 src={require("../assets/logos/github-white.png")}
                 alt="Github Logo"/>
             </a>
             <a href="#">
-              <img src={require("../assets/logos/X-white1.png")} alt="X Logo" />
+              <img class="socials-image" src={require("../assets/logos/X-white1.png")} alt="X Logo" />
             </a> 
           </div>
           </div>
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
         </div>
       </div>
-      <div class="text-center text-white small">&copy;copyright WTM Bamenda</div>
+      <div class="text-center small copy-right text-white">&copy;copyright WTM Bamenda</div>
     </div> 
   );
 }

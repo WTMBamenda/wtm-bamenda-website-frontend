@@ -42,24 +42,24 @@ export default function carousel(){
         ]
       };
     return(
-      <div className='carousel-wrapper mt-5'>
+      <div className='partners-carousel-wrapper mt-5'>
       <h2>Our<span> Partners</span></h2>
-       <div className='carousel'>
+       <div className='partners-carousel'>
     <Slider {...settings}>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/GDG Bamenda Logo.png')} alt='GDG Bamenda Logo'/>
+     <div className="partners-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/GDG Bamenda Logo.png')} alt='GDG Bamenda Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/WhileSmart logo 2.png')} alt='WhileSmart Logo'/>
+     <div className="partners-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/WhileSmart logo 2.png')} alt='WhileSmart Logo'/>
      </div>
-      <div className="carousel-item">
-        <img src={require('../assets/logos/bitsvalley logo.png')} alt='Bitsvalley Logo'/>
+      <div className="partners-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/bitsvalley logo.png')} alt='Bitsvalley Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/Felix Fomengia.png')} alt='Felix Fomengia Logo'/>
+     <div className="partners-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/Felix Fomengia.png')} alt='Felix Fomengia Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/datagirl logo.png')} alt='Datagirl Logo'/>
+     <div className="partners-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/datagirl logo.png')} alt='Datagirl Logo'/>
      </div>
   </Slider>
  </div>
