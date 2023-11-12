@@ -1,0 +1,73 @@
+
+.event-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+}
+.top-section, .bottom-section{
+    margin: 22px 50px;
+}
+.hero-image-container{
+    height: 400px;
+}
+.hero-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 28px 8px 28px;
+    object-fit: cover;
+    object-position: 25% 25%; 
+}
+.hash-tags{
+    background-color: #dee0ff;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+.attendees{
+    width: 20x;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.speakers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    width: 1420px;
+    
+    
+}
+.speaker-section h1 {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.speaker-card{
+padding: 0;
+margin: 0;
+}
+.attendees-date {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: light;
+}
+.green-text{
+    color: var(--main-section-green);
+}
+.event-details-text{
+    line-height: 40px;
+}
+.section-heading{
+        margin: 0;
+        padding-left: 1px;
+    }

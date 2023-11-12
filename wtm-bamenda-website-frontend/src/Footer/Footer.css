@@ -1,11 +1,14 @@
 
 .bottom-nav{
-    height: 55vh; 
+    height: 300px; 
     width: 100%; 
     background-color: #000000;
-    border-radius: 1rem 1rem 0rem 0rem;
+    border-radius: 16px 16px 0 0;
 }
-img{
+img .socials-image{
+    width: 100%;   
+}
+#footer-logo{
     width: 100%;
 }
 .socials img{
@@ -19,4 +22,7 @@ button#sendbtn{
 }
 .bottom-nav li{
     padding: 3px;
+}
+.copy-right{
+    font-size: 12px;
 }

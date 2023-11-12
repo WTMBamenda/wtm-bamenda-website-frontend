@@ -1,4 +1,4 @@
-import './sponsors.css'
+import './Sponsors.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -41,24 +41,24 @@ export default function carousel(){
         ]
       };
     return(
-      <div className='carousel-wrapper'>
+      <div className='sponsors-carousel-wrapper'>
       <h2>Sponsors</h2>
-       <div className='carousel'>
+       <div className='sponsors-carousel'>
     <Slider {...settings}>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/GDG Bamenda Logo.png')} alt='GDG Bamenda Logo'/>
+     <div className="sponsors-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/GDG Bamenda Logo.png')} alt='GDG Bamenda Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/WhileSmart logo 2.png')} alt='WhileSmart Logo'/>
+     <div className="sponsors-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/WhileSmart logo 2.png')} alt='WhileSmart Logo'/>
      </div>
-      <div className="carousel-item">
-        <img src={require('../assets/logos/bitsvalley logo.png')} alt='Bitsvalley Logo'/>
+      <div className="sponsors-carousel-item">
+        <img className="carousel-image"src={require('../assets/logos/bitsvalley logo.png')} alt='Bitsvalley Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/Felix Fomengia.png')} alt='Felix Fomengia Logo'/>
+     <div className="csponsors-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/Felix Fomengia.png')} alt='Felix Fomengia Logo'/>
      </div>
-     <div className="carousel-item">
-        <img src={require('../assets/logos/datagirl logo.png')} alt='Datagirl Logo'/>
+     <div className="sponsors-carousel-item">
+        <img className="carousel-image" src={require('../assets/logos/datagirl logo.png')} alt='Datagirl Logo'/>
      </div>
   </Slider>
  </div>

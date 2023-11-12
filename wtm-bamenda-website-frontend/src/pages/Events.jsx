@@ -118,7 +118,7 @@ export default function Events() {
               repellendus nesciu Lorem ipsum dolor sit amet, consectetur
             </p>
             <button className="events-main-btn mt-4">
-              <a href="/">See event</a>
+              <a href="/eventdetails">See event</a>
             </button>
           </div>
           <div className="col-6">
