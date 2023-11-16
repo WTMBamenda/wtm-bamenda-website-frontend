@@ -1,3 +1,4 @@
+
 .top-bar {
   width: 100%;
   font-weight: normal;
@@ -5,19 +6,16 @@
 .nav-logo {
   width: 350px;
   height: 100px;
-  margin-left: 130px;
   object-fit: contain;
 }
 .nav-bar1 {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #f4fff8;
 }
- .nav-bar1 ul {
+.nav-bar1 ul {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -32,4 +30,32 @@ ul .nav-home {
 .link {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width:576px){
+  
+  .top-bar {
+    text-align: center;
+    align-items: center;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+  ul .nav-home {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: -18px;
+  }
+
+  ul li {
+    font-size: 14px;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+    .nav-bar1 ul {
+      
+      gap: 10px;
+    }
 }

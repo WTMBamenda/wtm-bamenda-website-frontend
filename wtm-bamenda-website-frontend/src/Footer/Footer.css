@@ -20,3 +20,13 @@ button#sendbtn{
 .bottom-nav li{
     padding: 3px;
 }
+@media (max-width:576px){
+ button#joinbtn{
+    width: 150px;
+    height: 70;
+    margin-top: -15px;
+ }
+ .bottom-nav p{
+    text-align: left;
+ }
+}

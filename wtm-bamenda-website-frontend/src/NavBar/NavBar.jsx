@@ -8,7 +8,7 @@ function NavBar(){
     return(
         <div className="top-bar">
             <div className="nav-bar1">
-                <img src={Logo} alt="wtm-logo" className="nav-logo"  />
+             <img src={Logo} alt="wtm-logo" className="nav-logo"  /> 
                 <nav className="nav-item">
                     <ul>
 

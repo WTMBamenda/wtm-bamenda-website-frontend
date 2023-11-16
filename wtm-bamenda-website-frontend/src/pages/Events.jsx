@@ -16,7 +16,7 @@ import Footer from "../Footer/Footer";
 export default function Events() {
   return (
     <div className="events-page">
-      <div className="nav-bar1">
+      <div className="nav-bar2">
         <img src={Logo} alt="wtm-logo" className="nav-logo" />
         <nav className="nav-item">
           <ul>
