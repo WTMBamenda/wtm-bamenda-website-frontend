@@ -1,13 +1,18 @@
-
+.container {
+  margin-top: 20px;
+  
+  
+}
 
 .profile-frame img{
-    width: 259px; 
+    width:259px; 
     height: 237px;
     border-radius: 28px 8px 28px 8px;
     gap: 20px;
+    
 }
 .profile{
-  margin-top: 64px;
+  margin-top: 54px;
 }
 .profile h3 {
   font-family: "Roboto", sans-serif;
@@ -27,7 +32,7 @@
 .social-handles{
   display: flex;
   gap: 16px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 @media(max-width: 576px) {

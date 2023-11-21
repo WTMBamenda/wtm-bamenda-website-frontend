@@ -1,0 +1,240 @@
+.top-bar {
+    width: 100%;
+    font-weight: normal;
+  }
+  .nav-logo {
+    width: 350px;
+    height: 100px;
+    margin-left: 130px;
+    object-fit: contain;
+  }
+  .nav-bar1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4fff8;
+  }
+   .nav-bar1 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+  }
+  ul .nav-about {
+    color: #00bfa5;
+    border-bottom: 3px solid #00bfa5;
+    width: 25px;
+    margin-right: 20px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+.about-overview{
+    
+    text-align: center;
+    gap: 48px
+ 
+}
+.about-text{
+    margin-bottom: 30px;
+}
+ .about-image{
+    
+    width: 1237px;
+    height: 397px;
+    object-fit: contain;
+    margin-top: 40px;
+    margin-bottom: 60px;
+   
+}
+
+.goal1{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    
+
+}
+.goal-style{
+    color:   #005AC1;
+    
+}
+.text1{
+  
+font-family: Roboto;
+font-size: 10px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
+.box1{
+    width:220px;
+    height: 140px;
+    padding: 44px, 28px, 44px, 28px;
+    border-radius: 12px;
+    background: #FFDAD7;
+  
+}
+.box2{
+    width:220px;
+    height: 140px;
+    padding: 44px, 28px, 44px, 28px;
+    border-radius: 12px;
+   background: #DEE0FF;
+
+
+}
+.box3{
+    width:220px;
+    height: 140px;
+    padding: 44px, 28px, 44px, 28px;
+    border-radius: 12px;
+    background: #D8E2FF;
+
+}
+.box4{
+    width:220px;
+    height: 140px;
+    padding: 44px, 28px, 44px, 28px;
+    border-radius: 12px;
+    background: #BBFFE3;
+}
+.icon1{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.box-p{
+    
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    font-size: 10px;
+   
+    
+}
+.goal-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.amba-text{
+    text-align: center;
+    
+}
+.amba-heading{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    margin-top: 80px;
+    color: #000000;
+    
+   
+}
+.span1{
+    color:#FF7370
+}
+.amba-text1{
+font-family: Roboto;
+font-size: 10px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+color: #000000;
+
+}
+.organ1{
+text-align: center;
+}
+.org-text{
+font-family: Roboto;
+font-size: 28px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0.04em;
+}
+.span2{
+    color: #00BFA5;
+
+}
+.org-text1{
+    
+font-family: Roboto;
+font-size: 10px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+
+.community{
+text-align: center;
+
+}
+.com-text{
+font-family: Roboto;
+font-size: 28px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0.04em;
+}
+.span3{
+    color:#4556B6;
+
+}
+.com-text1{
+    
+font-family: Roboto;
+font-size: 10px;
+font-weight: 300;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.button1{
+    margin-bottom: 20px;
+}
+.com-button{
+    width: 170px;
+    height: 40px;
+    padding: 20px, 24px, 20px, 24px;
+    border: none;
+    border-radius: 8px;
+    gap: 4px;
+   background:#2B74E2 ;
+   color: white; 
+}
+
+
+
+
+

@@ -7,8 +7,10 @@
     justify-content: center;
 }
 .card-img{
-    width: 13rem;
-    height: 17rem;
+    width: 237px; 
+    height: 237px;
+    border-radius: 28px 8px 28px 8px;
+    gap: 20px;
     object-fit: cover;
 }
 .card-text{
@@ -17,6 +19,9 @@
     width: 11rem;
     height: 3rem;
     justify-content: left;
+
+    color: black;
+
 }
 .card-job{
     padding-top: 0%;
